@@ -5,7 +5,8 @@
         private static string GetGreetingMessage(string name, double salary)
         {
             // возвращает "Hello, <name>, your salary is <salary>"
-            ...
+            double salary = (double)Math.Round(salary);
+            return "Hello, <name>, your salary is <salary>";
         }
 
         static void Main(string[] args)

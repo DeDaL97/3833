@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string doubleNumber = "894376.243643";
-            int number = doubleNumber; // Вася уверен, что ошибка где-то тут
+            double number = 894376.243643;
             Console.WriteLine(number + 1);
         }
     }
